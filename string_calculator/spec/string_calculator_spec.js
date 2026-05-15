@@ -3,7 +3,7 @@ describe('String Calculator', function() {
 		calculator = new StringCalculator();
 	});
 
-/*it('should return 0 for an empty string', function() {
+it('should return 0 for an empty string', function() {
 		expect(calculator.add('')).toEqual(0);
 	});
 
@@ -24,7 +24,7 @@ it('should add three comma separated numbers', function() {
 
 it('should add four comma separated numbers', function() {
     expect(calculator.add('1,5,27,45')).toEqual(78);
-});*/
+});
 
 it('should add five comma separated binary number', function() {
     expect(calculator.add('1,10,100,1000,10000')).toEqual(11111);
