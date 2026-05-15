@@ -3,7 +3,7 @@ describe('String Calculator', function() {
 		calculator = new StringCalculator();
 	});
 
-/*it('should return 0 for an empty string', function() {
+it('should return 0 for an empty string', function() {
 		expect(calculator.add('')).toEqual(0);
 	});
 
@@ -20,7 +20,7 @@ it('should add two int', function() {
 
 it('should add three comma separated numbers', function() {
     expect(calculator.add('15,17,21')).toEqual(53);
-});*/
+});
 
 it('should add four comma separated numbers', function() {
     expect(calculator.add('1,5,27,45')).toEqual(78);
