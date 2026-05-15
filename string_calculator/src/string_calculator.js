@@ -3,9 +3,16 @@ function StringCalculator() {}
 StringCalculator.prototype.add = function(string_numbers) {
 
 		
-		const numbers = string_numbers.split(",");
+		 if (string_numbers === "") {
+        return 0;
+    }
 
-		
+    const numbers = string_numbers.split(",");
+    let sum = 0;
 
-	    return parseInt(numbers[0]) + parseInt(numbers[1]);
+    for (let i = 0; i < numbers.length; i++) {
+        sum += parseInt(numbers[i]);
+    }
+
+    return sum;
 };

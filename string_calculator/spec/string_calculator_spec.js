@@ -19,7 +19,7 @@ it('should add two int', function() {
 });*/
 
 it('should add three comma separated numbers', function() {
-    expect(calculator.add('15,17,21')).toEqual(3);
+    expect(calculator.add('15,17,21')).toEqual(53);
 });
 
 });
